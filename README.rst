@@ -689,6 +689,12 @@ the Google homepage. Scripts can cause additional network requests to be
 performed, as well as modify the page or its layout, causing another round of
 page rendering and painting.
 
+
+Conclusion
+-------------
+
+To sum up, upon entering “https://www.google.com" into your browser and hitting the Enter key, your computer triggers a sequence of events that enable it to access the desired information. This sequence encompasses a DNS request, establishment of a TCP/IP connection, assessment against a firewall, implementation of HTTPS/SSL encryption, assignment by a load-balancer, handling by a web server, processing by an application server, and retrieval from a database.
+
 .. _`Creative Commons Zero`: https://creativecommons.org/publicdomain/zero/1.0/
 .. _`"CSS lexical and syntax grammar"`: http://www.w3.org/TR/CSS2/grammar.html
 .. _`Punycode`: https://en.wikipedia.org/wiki/Punycode
